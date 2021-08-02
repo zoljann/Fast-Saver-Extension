@@ -1,4 +1,4 @@
 # Chrome-extension
 
-Google Chrome extension for saving webpages
-Simple Chrome extension that is used for fast saving links, webpages and etc.
+Extension that is used for saving webpages <br>
+
