@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 400px;
+}
+input{
+    padding: 1%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    border: 1px solid rgb(77, 155, 168);
+}
+button{
+    border: none;
+    padding: 1.5%;
+    width: 150px;
+    background-color: rgb(77, 155, 168);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 11pt;
+}
+li a{
+    color: rgb(77, 155, 168);
+    font-size: 12pt;
+}
