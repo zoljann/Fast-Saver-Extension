@@ -1,21 +1,36 @@
 const spasiDugmeBtn = document.getElementById("spasiDugme");
+let obrisiDugmeBtn = document.getElementById("obrisiDugme");
 const ulazEl = document.getElementById("ulaz-el");
-let nizLinkova = [];
 let ulEl = document.getElementById("ulEl");
+let nizLinkova = [];
 
-localStorage.setItem("mojiLinkovi", "www.exampled.com");
-localStorage.clear()
+const nizLocalStorage = JSON.parse(localStorage.getItem("nizLinkova"));
+
+if(nizLocalStorage){
+    nizLinkova=nizLocalStorage;
+    osvjeziLinkove(nizLinkova);
+}
+
 spasiDugmeBtn.addEventListener("click", function () {
-    nizLinkova.push(ulazEl.value)
-    osvjeziLinkove()
-    ulazEl.value = ""
+    if(!(ulazEl.value === "")){
+        nizLinkova.push(ulazEl.value)
+        ulazEl.value = ""
+        localStorage.setItem("nizLinkova", JSON.stringify(nizLinkova))
+        osvjeziLinkove(nizLinkova)
+    }
 })
 
-function osvjeziLinkove() {
+obrisiDugmeBtn.addEventListener("dblclick", function(){
+    localStorage.clear();
+    nizLinkova = [];
+    osvjeziLinkove(nizLinkova);
+})
+
+function osvjeziLinkove(linkovi) {
     let listaNiza = ""
-    for (let i = 0; i < nizLinkova.length; i++) {
+    for (let i = 0; i < linkovi.length; i++) {
         listaNiza += `
-    <li><a target='_blank' href="${nizLinkova[i]}">${nizLinkova[i]} </a>
+    <li><a target='_blank' href="${linkovi[i]}">${linkovi[i]} </a>
     </li>`
     }
     ulEl.innerHTML = listaNiza;

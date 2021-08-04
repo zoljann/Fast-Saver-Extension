@@ -12,13 +12,22 @@ input{
     border: 1px solid rgb(77, 155, 168);
 }
 button{
-    border: none;
+    border: 1px solid black;
     padding: 1.5%;
     width: 150px;
     background-color: rgb(77, 155, 168);
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 11pt;
+    border-radius:
+     3px;
+}
+#obrisiDugme{
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 155, 168);;
+}
+#dugmad{
+    text-align: center;
 }
 li a{
     color: rgb(77, 155, 168);
