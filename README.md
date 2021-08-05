@@ -1,4 +1,5 @@
 # Chrome-extension
 
-Extension that is used for saving webpages <br>
+This chrome extension is used for fast save websites <br>
+It's simple designed 
 
