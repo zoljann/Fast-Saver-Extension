@@ -1,5 +1,5 @@
 # Chrome-extension
 
-This chrome extension is used for fast save websites <br>
-It's simple designed 
+Chrome extension that is used for saving webpages, this is something like bookmarks but simpler 
 
+**slike ovdje
