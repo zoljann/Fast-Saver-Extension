@@ -1,4 +1,5 @@
 # Chrome-extension
 
-Extension that is used for saving webpages <br>
+Chrome extension that is used for saving webpages, this is something like bookmarks but simpler 
 
+**slike ovdje
