@@ -33,3 +33,6 @@ li a{
     color: rgb(77, 155, 168);
     font-size: 12pt;
 }
+ul{
+    width: 130px;
+}

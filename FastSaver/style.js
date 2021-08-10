@@ -1,8 +1,8 @@
 const spasiDugmeBtn = document.getElementById("spasiDugme");
-let obrisiDugmeBtn = document.getElementById("obrisiDugme");
-let websiteBtn = document.getElementById("websiteDugme");
+const obrisiDugmeBtn = document.getElementById("obrisiDugme");
+const websiteBtn = document.getElementById("websiteDugme");
 const ulazEl = document.getElementById("ulaz-el");
-let ulEl = document.getElementById("ulEl");
+const ulEl = document.getElementById("ulEl");
 let nizLinkova = [];
 
 const nizLocalStorage = JSON.parse(localStorage.getItem("nizLinkova"));
@@ -20,15 +20,12 @@ spasiDugmeBtn.addEventListener("click", function () {
     }
 })
 
-const tabs = [
-    { url: "https://google.com" }
-]
 websiteBtn.addEventListener("click", function () {
-   // chrome.tabs.query({active: true, currentWindow: true}, function(tabs){})
-   chrome.tabs.query({active: true})
-    nizLinkova.push(tabs[0].url);
-    localStorage.setItem("nizLinkova", JSON.stringify(nizLinkova));
-    osvjeziLinkove(nizLinkova);
+   chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+       nizLinkova.push(tabs[0].url);
+       localStorage.setItem("nizLinkova", JSON.stringify(nizLinkova));
+       osvjeziLinkove(nizLinkova);
+   })
 })
 
 obrisiDugmeBtn.addEventListener("dblclick", function () {
