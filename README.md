@@ -1,6 +1,6 @@
 # Chrome-extension
 
-Chrome extension that is used for saving webpages, this is something like bookmarks but simpler 
+My first project.I chose to work on something simple, just like chrome extension, fun thing to add in your portfolio!If you ever used bookmarks, this will be very useful for you.
 
 <p align="center">
   <img src="./images/screen2.png" />
