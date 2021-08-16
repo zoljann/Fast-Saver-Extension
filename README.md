@@ -1,6 +1,6 @@
 # Chrome-extension
 
- If you ever used bookmarks, this will be very useful for you.I made simple chrome extension, fun thing to add in your portfolio!
+ If you ever used bookmarks, this will be very useful for you. I made simple chrome extension, fun thing to add in your portfolio!
 
 <p align="center">
   <img src="./images/screen2.png" />
