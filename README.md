@@ -14,7 +14,7 @@ On click save website you're saving current website that is opened in browser.
 </p>
 
 ### Save input
-You can copy some links that are important to you, some emails etc.Also, you can take some short notes, or some daily reminders.
+You can paste links, emails etc. that are important to you. Also, you can take some short notes or some daily reminders.
 
 <p align="center">
   <img src="./images/screen3.png" />
@@ -22,7 +22,7 @@ You can copy some links that are important to you, some emails etc.Also, you can
   <img src="./images/screen4.png" />
 </p>
 
-### Deleting all
+### Delete all
 
 On double click "DELETE ALL" you're deleting all stuff in common.
 <p align="center">
