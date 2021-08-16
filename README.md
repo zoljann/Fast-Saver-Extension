@@ -6,7 +6,7 @@ Chrome extension that is used for saving webpages, this is something like bookma
   <img src="./images/screen2.png" />
 </p>
 
-## Saving current website
+# Saving current website
 
 On click save website you're saving current website that is opened in browser.
 <p align="center">
